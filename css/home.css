@@ -1,0 +1,63 @@
+/* INTRO SECTION */
+
+.intro {
+  position: relative;
+  background-color: var(--primaryColor);
+  height:60vh;
+  overflow: hidden;
+}
+
+.intro-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  top: 10%;
+  left: 10%;
+  z-index: 1;
+  height: 50%;
+  width: 50%;
+  line-height: 1.2;
+  animation: slideInFromLeft 0.7s ease-in;
+}
+
+.intro::before,
+.intro::after {
+  content: "";
+  position: absolute;
+  height: 130px;
+  bottom: -80px;
+  right: 0;
+  left: 0;
+  background:var(--bodyColor);
+  transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+}
+
+.intro-text p,
+.intro-text h1 {
+  color: var(--textColor);
+}
+
+.intro-text p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/* media queries */
+@media screen and (max-width: 1024px), (max-width: 764px), (max-width: 412px) {
+  .intro-text {
+    top: 20%;
+    height: 60%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .intro-text p,
+  .intro-text h1 {
+    font-size: 1rem;
+  }
+}

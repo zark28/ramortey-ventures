@@ -1,0 +1,102 @@
+:root{
+    --textColor:#2e2e2d;
+    --textColorLight:#949490;
+    --primaryColor:#DFAB26;
+    --secondaryColor:#ffc32a;
+    --bodyColor:#E5E5E5;
+    --mainBackground:#cecfcd;
+    --white:#fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:var(--textColor) ;
+         
+}
+
+body, html{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+    letter-spacing: 1.2;
+    overflow-x: hidden;
+}
+main{
+  height:70vh;
+  scroll-behavior: smooth;
+  z-index: 1;
+  
+  
+}
+section{
+    position:relative;
+    height: 100%; 
+    padding: 2rem;
+    margin: 10vh 0 0 0;
+    scroll-behavior: smooth;
+   
+}
+
+
+h1,h2{
+    font-size: 2.5rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+  
+  @media screen and (max-width:768px){
+    body,html{
+        font-size: 15px;
+    }
+}
+  
+
+/* Animations*/
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+ 
+
