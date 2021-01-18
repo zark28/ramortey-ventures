@@ -19,12 +19,11 @@
 body, html{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-
     letter-spacing: 1.2;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 main{
-  height:70vh;
   scroll-behavior: smooth;
   z-index: 1;
   
@@ -32,7 +31,7 @@ main{
 }
 section{
     position:relative;
-    height: 100%; 
+    height: fit-content; 
     padding: 2rem;
     margin: 10vh 0 0 0;
     scroll-behavior: smooth;
@@ -52,6 +51,8 @@ img{
 a{
     text-decoration: none;
 }
+
+
 
 
   

@@ -1,14 +1,20 @@
 footer {
-  position: fixed;
+  /* position: fixed;
   bottom: 0;
-  left: 0;
-  height:23vh;
+  left: 0; */
+  /* height:23vh; */
   padding: 2rem 0;
   display: flex;
   justify-content: space-around;
   width: 100%;
   background-color: var(--primaryColor);
   z-index: 3;
+}
+
+.index-footer{
+  position: fixed;
+  bottom: 0;
+  left: 0; 
 }
 
 .brief,
