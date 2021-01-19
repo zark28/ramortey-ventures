@@ -103,6 +103,10 @@ nav {
   .nav-links {
     width: 90%;
   }
+  .nav-links li {
+    opacity: 0;
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
