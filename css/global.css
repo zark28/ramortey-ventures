@@ -61,6 +61,12 @@ a{
         font-size: 15px;
     }
 }
+@media screen and (max-width:338px){
+  body,html{
+      font-size: 10px;
+      
+  }
+}
   
 
 /* Animations*/
