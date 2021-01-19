@@ -55,7 +55,21 @@
   }
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 518px) {
+  .intro-text p,
+  .intro-text h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro-text p,
+  .intro-text h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 243px) {
   .intro-text p,
   .intro-text h1 {
     font-size: 1rem;
