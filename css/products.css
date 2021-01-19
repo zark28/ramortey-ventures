@@ -55,15 +55,16 @@ margin: 2rem;
 
 @media screen and (max-width: 412px) {
   .product-display {
+    display: block;
     width: 80%;
     margin: auto;
     padding: 2rem;
     
 }
 .product-card {
-  width: 70%;
+  margin: 2.5rem auto ;
+  width: 90%;
   height: fit-content;
-  
 }
 
 }
