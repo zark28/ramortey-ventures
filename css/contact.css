@@ -5,7 +5,7 @@
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
     transform: translateY(-140%);
-    animation: slideInFromTop 2s ease-in-out;
+    animation: slideInFromTop 0.8s ease-in-out;
     animation-fill-mode:forwards;
 }
 

@@ -8,9 +8,7 @@
 margin: 2rem;
 }
 
-/* .products-section.section{
 
-} */
 
 .product-display {
   display: grid;
@@ -31,7 +29,7 @@ margin: 2rem;
   height: 100%;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.842);
   transition: ease-in-out .3s ;
-  animation:slideInFromBottom .5s ease-in-out;
+  animation:slideInFromBottom .8s ease-in-out;
 }
 
 .product-card:active,
