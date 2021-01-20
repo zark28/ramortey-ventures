@@ -2,7 +2,7 @@
 
 .intro {
   position: relative;
-  background-color: var(--primaryColor);
+  background: var(--primaryColor);
   height:60vh;
   overflow: hidden;
 }

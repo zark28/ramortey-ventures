@@ -17,7 +17,7 @@
 
 .contact-info{
     margin-top: 2rem;
-    background-color: var(--secondaryColor);
+    background: var(--secondaryColor);
     height: 90%;
 }
 
@@ -136,7 +136,7 @@ form button{
     }
     .contact-info{
         margin-top: 2rem;
-        background-color: var(--secondaryColor);
+        background: var(--secondaryColor);
     }
 
     .email-numbers{

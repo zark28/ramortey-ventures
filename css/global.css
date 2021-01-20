@@ -1,10 +1,15 @@
 :root{
     --textColor:#2e2e2d;
     --textColorLight:#949490;
-    --primaryColor:#DFAB26;
-    --secondaryColor:#ffc32a;
-    --bodyColor:#E5E5E5;
+    /* --primaryColor:#DFAB26; */
+    --primaryColor:linear-gradient(90deg, rgba(254,64,14,1) 0%, rgba(252,110,22,1) 15%, rgba(250,143,27,1) 84%, rgba(251,118,35,1) 100%);
+    --tetiaryColor:linear-gradient(55deg, rgba(254,64,14,1) 0%, rgba(252,110,22,1) 61%, rgba(251,144,28,1) 90%, rgba(251,118,35,1) 100%);
+    --fittingsColor:#ffc32a;
+    --secondaryColor:linear-gradient(360deg, #FF150E 0%, #FE400E 35%, #FB7E26 50%,#FA8F1B 100%);
+    /* --bodyColor:#E5E5E5; */
+    --bodyColor:#FFF112;
     --mainBackground:#cecfcd;
+
     --white:#fff;
 }
 
@@ -22,6 +27,7 @@ body, html{
     letter-spacing: 1.2;
     overflow-x: hidden;
     overflow-y: auto;
+    background: var(--primaryColor);
 }
 main{
   scroll-behavior: smooth;
