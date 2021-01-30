@@ -57,10 +57,9 @@ footer p {
 }
 
 .socials a:nth-of-type(2) img {
-  -webkit-filter: invert(21%) sepia(75%) saturate(7466%) hue-rotate(10deg)
-    brightness(106%) contrast(106%);
-          filter: invert(21%) sepia(75%) saturate(7466%) hue-rotate(10deg)
-    brightness(106%) contrast(106%);
+  -webkit-filter: invert(29%) sepia(41%) saturate(2230%) hue-rotate(250deg) brightness(93%) contrast(97%);
+          filter: invert(29%) sepia(41%) saturate(2230%) hue-rotate(250deg) brightness(93%) contrast(97%);
+
 }
 
 .socials a:nth-of-type(3) img {
