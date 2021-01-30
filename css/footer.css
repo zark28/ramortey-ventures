@@ -31,6 +31,8 @@ footer p {
 }
 
 .socials {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
 }
 
@@ -48,17 +50,23 @@ footer p {
 }
 
 .socials a:first-of-type img {
-  filter: invert(48%) sepia(34%) saturate(7454%) hue-rotate(208deg)
+  -webkit-filter: invert(48%) sepia(34%) saturate(7454%) hue-rotate(208deg)
+    brightness(77%) contrast(75%);
+          filter: invert(48%) sepia(34%) saturate(7454%) hue-rotate(208deg)
     brightness(77%) contrast(75%);
 }
 
 .socials a:nth-of-type(2) img {
-  filter: invert(21%) sepia(75%) saturate(7466%) hue-rotate(10deg)
+  -webkit-filter: invert(21%) sepia(75%) saturate(7466%) hue-rotate(10deg)
+    brightness(106%) contrast(106%);
+          filter: invert(21%) sepia(75%) saturate(7466%) hue-rotate(10deg)
     brightness(106%) contrast(106%);
 }
 
 .socials a:nth-of-type(3) img {
-  filter: invert(66%) sepia(99%) saturate(399%) hue-rotate(83deg)
+  -webkit-filter: invert(66%) sepia(99%) saturate(399%) hue-rotate(83deg)
+    brightness(88%) contrast(89%);
+          filter: invert(66%) sepia(99%) saturate(399%) hue-rotate(83deg)
     brightness(88%) contrast(89%);
 }
 
@@ -67,7 +75,9 @@ footer p {
 .socials a:first-of-type:hover img,
 .socials a:nth-of-type(2):hover img,
 .socials a:nth-of-type(3):hover img {
-  filter: invert(96%) sepia(12%) saturate(89%) hue-rotate(263deg)
+  -webkit-filter: invert(96%) sepia(12%) saturate(89%) hue-rotate(263deg)
+    brightness(117%) contrast(100%);
+          filter: invert(96%) sepia(12%) saturate(89%) hue-rotate(263deg)
     brightness(117%) contrast(100%);
 }
 

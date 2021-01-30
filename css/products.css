@@ -29,7 +29,8 @@ margin: 2rem;
   height: 100%;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.842);
   transition: ease-in-out .3s ;
-  animation:slideInFromBottom .8s ease-in-out;
+  -webkit-animation:slideInFromBottom .8s ease-in-out;
+          animation:slideInFromBottom .8s ease-in-out;
 }
 
 .product-card:active,
@@ -64,6 +65,8 @@ margin: 2rem;
 .product-card {
   margin: 2.5rem auto ;
   width: 90%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
 }
 

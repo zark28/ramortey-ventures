@@ -1,17 +1,22 @@
 :root{
     --textColor:#2e2e2d;
     --textColorLight:#949490;
-    /* --primaryColor:#DFAB26; */
-    --primaryColor:linear-gradient(90deg, rgba(254,64,14,1) 0%, rgba(252,110,22,1) 15%, rgba(250,143,27,1) 84%, rgba(251,118,35,1) 100%);
-    --tetiaryColor:linear-gradient(55deg, rgba(254,64,14,1) 0%, rgba(252,110,22,1) 61%, rgba(251,144,28,1) 90%, rgba(251,118,35,1) 100%);
+    --primaryColor:linear-gradient(to right,  #f12711, #f5af19);
     --fittingsColor:#ffc32a;
-    --secondaryColor:linear-gradient(360deg, #FF150E 0%, #FE400E 35%, #FB7E26 50%,#FA8F1B 100%);
-    /* --bodyColor:#E5E5E5; */
     --bodyColor:#FFF112;
     --mainBackground:#cecfcd;
-
     --white:#fff;
+
+    /* --secondaryColor:linear-gradient(360deg, #FF150E 0%, #FE400E 35%, #FB7E26 50%,#FA8F1B 100%); */
+    /* --primaryColor:linear-gradient(90deg, rgba(254,64,14,1) 0%, rgba(252,110,22,1) 15%, rgba(250,143,27,1) 84%, rgba(251,118,35,1) 100%); */
+    /* --tetiaryColor:linear-gradient(55deg, rgba(254,64,14,1) 0%, rgba(252,110,22,1) 61%, rgba(251,144,28,1) 90%, rgba(251,118,35,1) 100%); */
+
 }
+
+/* background: #f12711;  fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #f5af19, #f12711);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #f5af19, #f12711); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 *{
     margin: 0;
@@ -37,6 +42,8 @@ main{
 }
 section{
     position:relative;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content; 
     padding: 2rem;
     margin: 10vh 0 0 0;
@@ -76,9 +83,26 @@ a{
   
 
 /* Animations*/
+@-webkit-keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
   }
   100% {
     transform: translateX(0);
@@ -94,9 +118,27 @@ a{
   }
 }
 
+@-webkit-keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 @keyframes slideInFromTop {
   0% {
     transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
   }
   100% {
     transform: translateY(0);

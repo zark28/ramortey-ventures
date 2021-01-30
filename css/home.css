@@ -18,7 +18,8 @@
   height: 50%;
   width: 50%;
   line-height: 1.2;
-  animation: slideInFromLeft 0.7s ease-in;
+  -webkit-animation: slideInFromLeft 0.7s ease-in;
+          animation: slideInFromLeft 0.7s ease-in;
 }
 
 .intro::before,
@@ -44,6 +45,11 @@
 .intro-text p {
   font-size: 1.5rem;
   line-height: 1.5;
+}
+
+.intro-text p>span{
+  font-weight: bolder;
+
 }
 
 /* media queries */

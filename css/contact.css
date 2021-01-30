@@ -5,8 +5,10 @@
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
     transform: translateY(-140%);
-    animation: slideInFromTop 0.8s ease-in-out;
-    animation-fill-mode:forwards;
+    -webkit-animation: slideInFromTop 0.8s ease-in-out;
+            animation: slideInFromTop 0.8s ease-in-out;
+    -webkit-animation-fill-mode:forwards;
+            animation-fill-mode:forwards;
 }
 
 
