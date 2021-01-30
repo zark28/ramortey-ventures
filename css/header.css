@@ -50,12 +50,12 @@ nav {
 
 .logo {
   display: flex;
-  width: 15%;
+  width: 8%;
   align-items: center;
 }
 
 .logo img {
-  width: 40%;
+  width: 100%;
 }
 
 .burger {
