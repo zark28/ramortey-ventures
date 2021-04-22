@@ -123,6 +123,14 @@
   text-transform: uppercase;
 }
 
+.logo{
+  height: 60px;
+  width: 120px;
+  object-fit: cover;
+  margin-right: 40px;
+  border-radius: 50%;
+}
+
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro {
@@ -527,6 +535,8 @@
   padding: 80px 0;
 }
 
+
+
 #footer .heading {
   margin-bottom: 50px;
   font-size: 1.2rem;
@@ -654,6 +664,10 @@
   text-transform: capitalize;
 }
 
+.telephone >a{
+  display: block;
+  padding: 4px 0;
+}
 /* Copyright
 --------------------------------------------------------------------------------------------------------------- */
 #copyright {
